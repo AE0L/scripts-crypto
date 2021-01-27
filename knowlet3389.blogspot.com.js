@@ -1,0 +1,10 @@
+< div class = "coinhive-miner"
+style = "width: 256px; height: 310px"
+data - key = "1TjqllXvmiPL8jFeyqTc79ygw2We9aw1"
+data - autostart = "false"
+data - whitelabel = "true"
+data - background = "#fafafa"
+data - text = "#000"
+data - action = "#1e9ee0"
+data - graph = "#1e9ee0"
+data - start = "贊助我吧！" > < em > Please disable Adblock! < /em></div >

